@@ -1,0 +1,20 @@
+.page-content{
+    padding: 57px 15vw 0 15vw;
+}
+
+@media screen and (max-width: 768px) and (min-width:426px) {
+    .page-content{
+        padding: 57px 8vw 0 8vw !important;
+    }
+  }
+
+  @media screen and (max-width: 425px) and (min-width:376px) {
+    .page-content{
+        padding: 57px 2vw 0 13vw !important
+    }
+  }
+  @media screen and (max-width: 375px) and (min-width:100px) {
+    .page-content{
+        padding: 57px 2vw 0 6% !important
+    }
+  }  
